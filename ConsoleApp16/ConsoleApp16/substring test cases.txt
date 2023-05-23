@@ -1,0 +1,37 @@
+Test case:1
+input :s1="abcdabcabd"
+       s2="ab"
+output: No.of times occurred = 3
+        Index positions = 0 4 7
+
+Test case:2
+input :s1="ababababab"
+       s2="ab"
+output: No.of times occurred = 5
+        Index positions = 0 2 4 6
+
+Test case:3
+input :s1="ccccccccc"
+       s2="c"
+output: No.of times occurred = 9
+        Index positions = 0 1 2 3 4 5 6 7 8 
+
+Test case:4
+input :s1="asdfghjklpo"
+       s2="sd"
+output: No.of times occurred = 1
+        Index positions = 1
+
+Test case:5
+input :s1="ssdvamsi"
+       s2="sd"
+output: No.of times occurred = 1
+        Index positions = 1
+
+Test case:6
+input :s1="vamsi"
+       s2="sd"
+output: No.of times occurred = 0
+        Index positions = NULL
+
+
