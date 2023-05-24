@@ -1,23 +1,8 @@
-Test case:1
-input :11
-output: Invalid output
+Test case 1.If input number has less than four digits,then output should show invalid output.
+Test case 2.If input is four digit number 1234,then output is multiplication of those four digits(1*2*3*4=24).
+Test case 3.If input is 1234445672,then output is multiplication of largest four digit sequence number 
+in the input(4*5*6*7=840).
+Test case 4.If input is 111111,then output is 1(1*1*1*1=1)
+Test case 5.If input is 10101010110,then output is 0(1*0*1*1=0).
 
-Test case:2
-input :1234
-output: 24
 
-Test case:3
-input :1234445671
-output: 840
-
-Test case:4
-input :11111111
-output: 1
-
-Test case:5
-input :1010101010111
-output: 0
-
-Test case:6
-input :11111111111991
-output: 81

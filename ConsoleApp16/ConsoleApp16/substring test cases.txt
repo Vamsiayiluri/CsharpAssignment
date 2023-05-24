@@ -1,37 +1,13 @@
-Test case:1
-input :s1="abcdabcabd"
-       s2="ab"
-output: No.of times occurred = 3
-        Index positions = 0 4 7
+Test case:1 the second string which is substring to the first one should not have length greater than the first string.
+if it is give like this the output should return invalid input
 
-Test case:2
-input :s1="ababababab"
-       s2="ab"
-output: No.of times occurred = 5
-        Index positions = 0 2 4 6
+Test case:2 if the substring or the 2nd string is not substring of the first string then output should return count as 0
+ times and index positions is NULL
 
-Test case:3
-input :s1="ccccccccc"
-       s2="c"
-output: No.of times occurred = 9
-        Index positions = 0 1 2 3 4 5 6 7 8 
+Test case:3 : If the substring is present in the main string then output should return the count or number of times the 
+substring occur in main strinng and also return the index positions where the substring occurs in the main string
 
-Test case:4
-input :s1="asdfghjklpo"
-       s2="sd"
-output: No.of times occurred = 1
-        Index positions = 1
 
-Test case:5
-input :s1="ssdvamsi"
-       s2="sd"
-output: No.of times occurred = 1
-        Index positions = 1
 
-Test case:6
-input :s1="vamsi"
-       s2="sd"
-output: No.of times occurred = 0
-        Index positions = NULL
 
 
