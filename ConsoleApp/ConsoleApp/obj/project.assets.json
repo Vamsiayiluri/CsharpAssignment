@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "BAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BusinessModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BAL.dll": {}
+        }
+      },
+      "BusinessModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BusinessModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BAL/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLayer/BAL.csproj",
+      "msbuildProject": "../BusinessLayer/BAL.csproj"
+    },
+    "BusinessModels/1.0.0": {
+      "type": "project",
+      "path": "../BusinessModels/BusinessModels.csproj",
+      "msbuildProject": "../BusinessModels/BusinessModels.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "BAL >= 1.0.0",
+      "BusinessModels >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Vamsi Ayiluri\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+      "projectName": "ConsoleApp",
+      "projectPath": "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\Vamsi Ayiluri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\ConsoleApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Vamsi Ayiluri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\BusinessLayer\\BAL.csproj": {
+              "projectPath": "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\BusinessLayer\\BAL.csproj"
+            },
+            "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\BusinessModels\\BusinessModels.csproj": {
+              "projectPath": "C:\\Users\\Vamsi Ayiluri\\source\\repos\\ConsoleApp\\BusinessModels\\BusinessModels.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
